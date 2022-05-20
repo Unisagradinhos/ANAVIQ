@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAVIQ</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Css Background-->
+    <link rel="stylesheet" href="/componentes/bck_index.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/componentes/lines_bck.css">
+    <link rel="stylesheet" href="/componentes/anaviq_bck.css">
+    <link rel="stylesheet" href="/componentes/anaviq_bck.css">
+</head>
+
+<body class="black">
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <!--Navbar-->
+    <div id="nav_placeholder"> </div>
+    <!--Fim do Navbar-->
+    <div class="teste">
+        <h1 id="parallax">ANAVIQ</h1>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type=" text/javascript " src="js/materialize.min.js "></script>
+
+    <!--Chamada carrossel-->
+    <script>
+        $(document).ready(function() {
+            $('.carousel').carousel();
+        });
+    </script>
+    <!--Fim chamada carrossel-->
+
+    <!--Chamada Navbar e Footer-->
+    <script>
+        $(function() {
+            $("#nav_placeholder").load("./componentes/navbar.html");
+            $("#footer_placeholder").load("./componentes/footer.html");
+            $(".dropdown-trigger").dropdown();
+        });
+    </script>
+    <!--Fim Chamada Navbar e Footer-->
+
+    <script>
+        $(function() {
+            $("#nav_placeholder").load("./componentes/navbar.html");
+            $("#footer_placeholder").load("./componentes/footer.html");
+            $(".dropdown-trigger").dropdown();
+        });
+    </script>
+</body>
+
+</html>

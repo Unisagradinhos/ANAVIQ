@@ -1,0 +1,16 @@
+h1,
+h2,
+h3 {
+    color: #E0340B;
+}
+
+hr {
+    width: 20%;
+    color: #E0340B;
+}
+
+p,
+span {
+    color: #ffff;
+    font-size: large;
+}

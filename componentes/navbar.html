@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="/componentes/nav.css">
+</head>
+
+<body>
+
+    <!-- Dropdown Queimaduras-->
+    <ul id="dropdown_queimaduras" class="dropdown-content - black">
+        <li><a href="/queimaduras/grausdequeimaduras.html">Graus de Queimaduras</a> </li>
+        <li><a href="/queimaduras/tratamentosmedicos.html">Tratamentos Médicos</a></li>
+        <li><a href="/queimaduras/hospitais.html">Hospitais</a></li>
+        <li><a href="/queimaduras/prevencao.html ">Prevenção</a></li>
+        <li><a href="#! ">Primeiros Socorros</a></li>
+    </ul>
+    <!--Fim Dropdown Queimaduras-->
+
+    <!-- Dropdown Projetos-->
+    <ul id="dropdown_projetos " class="dropdown-content - black ">
+        <li><a href="#! ">Fênix</a> </li>
+        <li><a href="#! ">Doutores da Beleza</a></li>
+        <li><a href="#! ">Invisíveis</a></li>
+        <li><a href="#! ">Camadas</a></li>
+        <li><a href="#! ">Diversidade</a></li>
+    </ul>
+    <!--Fim Dropdown Projetos-->
+    <!--Menu Expansivo-->
+    <ul id="dropdown_menu_expansivo " class="dropdown-content - black ">
+        <li><a href="#! ">Fênix</a> </li>
+        <li><a href="#! ">Doutores da Beleza</a></li>
+        <li><a href="#! ">Invisíveis</a></li>
+        <li><a href="#! ">Camadas</a></li>
+        <li><a href="#! ">Diversidade</a></li>
+    </ul>
+    <!--Fim Menu Expansivo-->
+    <!--Navbar-->
+    <nav>
+        <div class=" nav-wrapper - black " id="nav-placeholder ">
+            <a href="home.html " class="brand-logo ">ANAVIQ</a>
+            <div class="col s12 m6 ">
+                <ul id="nav-mobile " class="right hide-on-med-and-down ">
+                    <li><a class="orange-text text-lighten-2 " href="home.html ">Home</a></li>
+                    <!-- Dropdown queimaduras -->
+                    <li><a class="dropdown-trigger orange-text text-lighten-2 " href="#! " data-target="dropdown_queimaduras ">Queimaduras<i class="material-icons right ">arrow_drop_down</i></a></li>
+                    <li><a class="orange-text text-lighten-2 " href="quemsomos.html ">Quem Somos</a></li>
+                    <!--Dropdown projetos-->
+                    <li><a class="dropdown-trigger orange-text text-lighten-2 " href="#! " data-target="dropdown_projetos ">Projetos<i class="material-icons right ">arrow_drop_down</i></a></li>
+                    <li><a class="orange-text text-lighten-2 " href="apoie.html ">Apoie</a></li>
+                    <li><a class="orange-text text-lighten-2" href="criancas.html ">Crianças</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <script>
+        $(document).ready(function() {
+            $(".dropdown-trigger ").dropdown();
+        });
+    </script>
+</body>
+
+</html>

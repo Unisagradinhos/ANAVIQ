@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAVIQ</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Css Laranja-->
+    <link rel="stylesheet" href="/componentes/colors.css">
+    <!--Css Background-->
+    <link rel="stylesheet" href="/componentes/bck_index.css">
+    <link rel="stylesheet" href="/componentes/anaviq_bck.css">
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body class="black">
+    <div>
+        <div class="container">
+
+            <!--Navbar-->
+            <div id="nav_placeholder"> </div>
+            <!--Fim do Navbar-->
+
+            <main>
+                <div class="parallax"></div>
+                <!--Inicio Banner-->
+                <!--Fim do Navbar-->
+                <div class="row">
+                    <div class="teste">
+                        <h1 style="font-size:100px" id="parallax">ANAVIQ</h1>
+                    </div>
+                </div>
+                <div class="teste">
+
+                    <h2 style="font-size: 30px;" align="right">Associação Nacional dos<br>Amigos e Vítimas de Queimaduras</h2>
+                </div>
+                <div class="row">
+                    <div class="teste"></div>
+
+
+                </div>
+                <!--Fim Banner Inicial-->
+
+                <!--Sobre-->
+                <Section id="sec_sobre">
+                    <div class="row col s12 m6">
+                        <div class="row col s8 m6">
+                            <div class="section" align="left">
+                                <h3><b>Sobre</b></h3>
+                                <hr align="left">
+                                <h5>Conheça nossa Instituição</h5>
+                                <p style="font-size: larger;">Somos uma Instituição formada por vítimas de Queimaduras, familiares, amigos e profissionais da saúde, que tem como objetivo unir todos os interessados nessa causa para reivindicar juntos aos Órgão Governamentais, Políticas
+                                    Públicas que atendam o queimado em suas necessidades físicas, emocionais, sociais e também a instaurar Políticas de Prevenção de queimaduras para evitar que novos casos aconteçam.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </Section>
+
+                <!--Fim Sobre-->
+
+                <!--Projetos-->
+                <section id="sec_projetos">
+                    <div class="row col s12">
+                        <div class="row">
+                            <div class="section" align="right">
+                                <h3><b>Projetos</b></h3>
+                                <hr align="right">
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--Fim Projetos-->
+
+                <!--Dados Estatísticos-->
+                <section id="sec_dados">
+                    <div class="row col s12">
+                        <div class="row">
+                            <div class="section" align="left">
+                                <h3><b>Dados Estatísticos</b></h3>
+                                <hr align="left">
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!--Fim Dados Estatísticos-->
+
+                <!--Notícias-->
+                <section id="sec_noticias">
+                    <div class="row col s12">
+                        <div class="row">
+                            <div class="section" align="right">
+                                <h3><b>Notícias</b></h3>
+                                <hr align="right">
+                                <div class="carousel">
+                                    <a class="carousel-item" href="#one!"><img src="./Imagens/equipe_anaviq.jpg"></a>
+                                    <a class="carousel-item" href="#two!"><img src="./Imagens/equipe_anaviq.jpg"></a>
+                                    <a class="carousel-item" href="#three!"><img src="./Imagens/equipe_anaviq.jpg"></a>
+                                    <a class="carousel-item" href="#four!"><img src="./Imagens/equipe_anaviq.jpg"></a>
+                                    <a class="carousel-item" href="#five!"><img src="./Imagens/equipe_anaviq.jpg"></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!--Fim Notícias-->
+
+            </main>
+
+        </div>
+        <!--Inicio Footer-->
+        <div id="footer_placeholder"></div>
+        <!--Fim Footer-->
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js "></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type=" text/javascript " src="js/materialize.min.js "></script>
+
+    <!--Chamada carrossel-->
+    <script>
+        $(document).ready(function() {
+            $('.carousel').carousel();
+        });
+    </script>
+    <!--Fim chamada carrossel-->
+
+    <!--Chamada Navbar e Footer-->
+    <script>
+        $(function() {
+            $("#nav_placeholder").load("./componentes/navbar.html");
+            $("#footer_placeholder").load("./componentes/footer.html");
+            $(".dropdown-trigger").dropdown();
+        });
+    </script>
+    <!--Fim Chamada Navbar e Footer-->
+
+</body>
+
+</html>
+<
