@@ -13,11 +13,9 @@ body {
     width: 100%;
     height: 100%;
     background-color: #171717;
-    color: #000;
     line-height: 1.6;
     position: relative;
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 .lines {
@@ -29,6 +27,7 @@ body {
     height: 100%;
     margin: auto;
     width: 90vw;
+    height: 90vw;
 }
 
 .line {
@@ -52,8 +51,8 @@ body {
     top: -50%;
     left: 0;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #DA4343 0%, rgba(223, 125, 103, 0.58) 35.42%, rgba(234, 141, 121, 0.297389) 48.44%, rgba(163, 55, 32, 0.26) 64.58%, rgba(151, 92, 50, 0.789474) 79.69%, #A35823 100%);
-    -webkit-animation: drop 7s 0s infinite;
-    animation: drop 7s 0s infinite;
+    -webkit-animation: drop 1s 0s infinite;
+    animation: drop 5s 0s infinite;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);

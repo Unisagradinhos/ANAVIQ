@@ -6,12 +6,11 @@ body {
     height: 100%;
     width: 100%;
     height: 100%;
-    background-color: #171717;
-    color: #000;
+    background-color: #181414;
     line-height: 1.6;
     position: relative;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .teste {
@@ -23,11 +22,12 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: #cfc09f;
     transform: scale(1);
     position: relative;
-    background: linear-gradient(180deg, #DA4343 0%, rgba(164, 121, 121, 0.24) 18.75%, rgba(223, 125, 103, 0.58) 35.42%, rgba(234, 141, 121, 0.297389) 48.44%, rgba(163, 55, 32, 0.26) 64.58%, rgba(151, 92, 50, 0.789474) 79.69%, #A35823 100%);
+    background: linear-gradient(180deg, #440F0D 0%, rgba(249, 134, 69, 0.21) 18.23%, rgba(242, 122, 96, 0.67) 35.42%, rgba(241, 81, 46, 0.297389) 48.44%, rgba(249, 47, 3, 0.21) 64.58%, rgba(151, 92, 50, 0.789474) 79.69%, rgba(179, 86, 47, 0.49) 85.42%, #A35823 100%, #F75900 100%), linear-gradient(180deg, rgba(255, 92, 0, 0.87) 0%, rgba(249, 134, 69, 0.21) 18.23%, rgba(242, 122, 96, 0.67) 35.42%, rgba(241, 81, 46, 0.297389) 48.44%, rgba(249, 47, 3, 0.21) 64.58%, rgba(151, 92, 50, 0.789474) 79.69%, rgba(179, 86, 47, 0.49) 85.42%, #A35823 100%, #F75900 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -37,11 +37,16 @@ h2 {
 h1::before {
     color: #cfc09f;
     position: absolute;
-    margin: ;
     transform: scale(1);
     text-shadow: 0px 4px 4px rgba(155, 147, 147, 0.05);
 }
 
-h2::before {
-    position: relative;
+p,
+span {
+    color: #ffff;
+    font-size: large;
+}
+
+hr {
+    width: 20%;
 }
