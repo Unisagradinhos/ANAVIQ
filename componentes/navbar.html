@@ -24,7 +24,7 @@
         <li><a class="orange-text text-lighten-2 " href="#">Outros Tratamentos</a></li>
         <li><a class="orange-text text-lighten-2 " href="#">Hospitais</a></li>
         <li><a class="orange-text text-lighten-2 " href="../queimaduras/prevencao.html ">Prevenção</a></li>
-        <li><a class="orange-text text-lighten-2 " href="#! ">Primeiros Socorros</a></li>
+        <li><a class="orange-text text-lighten-2 " href="../queimaduras/primeirossocorros.html   ">Primeiros Socorros</a></li>
     </ul>
     <!--Fim Dropdown Queimaduras-->
 
@@ -84,7 +84,9 @@
     <!--End Navbar-->
     <script>
         $(document).ready(function() {
-            $(".dropdown-trigger ").dropdown();
+            $(".dropdown-trigger ").dropdown({
+                coverTrigger: false
+            });
         });
     </script>
     

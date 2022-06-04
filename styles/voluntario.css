@@ -8,6 +8,7 @@ p,h1,h2,h3{
 h1 {
     font-weight: 700;
     font-size: 30px;
+    margin-left: 30px;
 }
 
 body{
