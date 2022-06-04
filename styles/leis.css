@@ -2,6 +2,7 @@
 
 p,h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
+    color: #ffff;
 }
 
 p {
@@ -22,4 +23,8 @@ h2 {
 h3 {
     font-weight: 500;
     font-size: 15px;
+}
+
+body{
+    background-color: #181414;
 }
