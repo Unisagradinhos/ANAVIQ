@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-p,h1,h2,h3{
+p,h1,h2,h3, span, i{
     font-family: 'Montserrat', sans-serif;
     color: #fafafa;
 }
@@ -10,8 +10,9 @@ h1 {
     font-size: 30px;
 }
 
-.radio-button{
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-weight: 700;
+    font-size: 25px;
 }
 
 
@@ -19,7 +20,3 @@ body{
     background-color: #181414;
 }
 
-.about{
-    margin-top: 60px;
-    text-align: justify;
-}
