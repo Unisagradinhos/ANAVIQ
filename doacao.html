@@ -16,12 +16,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./styles/doacao.css">
 </head>
-<body>
+<body>    
+    <div class="container">
+    <!--Navbar-->
+    <div id="nav_placeholder"> </div>
+    <!--Fim do Navbar-->
+    </div>
     <div class="row">
         <div class="container">
             <!-- dados bancários -->
             <div class="col s12 m8">
-                <h1>Contamos com sua contribuição</h1>
+                <div class="title">
+                    <h1>Contamos com sua contribuição</h1>
+                </div>
                 <div class="container">
                     <p>Segue abaixo nossos dados bancários para transferencia ou depósito. </p>
                     <div class="dados-bancarios">
@@ -44,13 +51,13 @@
                             <label for="cpf">Digite seu CPF</label>
                         </div>
                         <div class="input-field col s12">
-                            <select>
-                              <option value="" disabled selected>Selecione seu sexo</option>
-                              <option value="1">Masculino</option>
+                            <select >
+                              <option value="" disabled selected class="white">Selecione seu sexo</option>
+                              <option value="1" >Masculino</option>
                               <option value="2">Feminino</option>
                               <option value="3">Prefiro não informar</option>
                             </select>
-                            <label>Selecione seu sexo</label>
+                            <label >Selecione seu sexo</label>
                           </div>
                           <div class="input-field col s12">
                             <input id="numero" type="number" class="validate">
@@ -149,6 +156,9 @@
             </div>
         </div>
     </div>
+            <!--Inicio Footer-->
+            <div id="footer_placeholder"></div>
+            <!--Fim Footer-->
     <script>
         M.AutoInit();
       </script>
@@ -161,5 +171,12 @@
     
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(function() {
+            $("#nav_placeholder").load("./componentes/navbar.html");
+            $("#footer_placeholder").load("./componentes/footer.html");
+            $(".dropdown-trigger").dropdown();
+        });
+    </script>
 </body>
 </html>

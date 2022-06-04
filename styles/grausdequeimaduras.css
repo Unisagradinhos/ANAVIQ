@@ -8,19 +8,22 @@ p,h1,h2,h3{
 h1 {
     font-weight: 700;
     font-size: 30px;
-    margin-left: 30px;
 }
 
-.radio-button{
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-weight: 700;
+    font-size: 25px;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
 
 body{
     background-color: #181414;
 }
 
-.about{
-    margin-top: 60px;
-    text-align: justify;
+.segundo-grau{
+    margin-left: 10px;
 }

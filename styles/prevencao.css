@@ -2,25 +2,29 @@
 
 p,h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
-    color: #fafafa;
+    color: #ffff;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
 }
 
 h1 {
     font-weight: 700;
     font-size: 30px;
-    margin-left: 30px;
 }
 
-.radio-button{
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-weight: 600;
+    font-size: 25px;
 }
 
+h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
 
 body{
     background-color: #181414;
-}
-
-.about{
-    margin-top: 60px;
-    text-align: justify;
 }

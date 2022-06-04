@@ -2,9 +2,21 @@
 
 p,h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
 }
 
 h1 {
     font-weight: 700;
     font-size: 30px;
+    margin-left: 30px;
 }
+
+body{
+    background-color: #181414;
+}
+
+.about{
+    margin-top: 60px;
+    text-align: justify;
+}
+
